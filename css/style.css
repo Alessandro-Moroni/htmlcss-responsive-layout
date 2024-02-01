@@ -110,7 +110,7 @@ footer{
     width: 65%;
   }
   .tools .col-30{
-    width: 30%;
+    width: 32%;
   }
 
   main .container .testimonials{
@@ -150,5 +150,28 @@ footer{
     height: 100%;
     width: 35%;
     background-color: aquamarine;
+  }
+}
+
+/* desktop */
+
+@media screen and (min-width:1200px){
+ 
+  header .menu{
+    display: block;
+  }
+  header .menu-hamburger{
+    display: none;
+  }
+  .container{
+    background-color: violet;
+  }
+
+  main .container-50{
+    flex-direction: row;
+  }
+
+  main .benefits-list .col-1-3{
+    width: 30%;
   }
 }
