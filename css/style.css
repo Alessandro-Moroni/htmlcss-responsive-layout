@@ -141,6 +141,7 @@ main{
   color: white;
   padding: 30px 25px;
   text-align: start;
+  width: 90%;
 }
 .container-50 .col-50 h3{
   margin: 40px 0;
@@ -342,9 +343,8 @@ footer{
 
 @media screen and (min-width:768px) {
   .container{
-    background-color: red;
+    
   }
-
   .col{
     width: 100%;
   }
@@ -357,23 +357,28 @@ footer{
 
   .tools .col-65{
     width: 65%;
+    height: 565px;
   }
   .tools .col-30{
     width: 32%;
+    height: 565px;
+  }
+  main .container-50 .col-50 .h3-strong{
+    font-size: 4rem;
   }
 
-  main .container .testimonials{
+  main .container .container-testimonials{
     display: flex;
+    height: 280px;
   }
-  main .container .testimonials .col-40{
+  main .container .container-testimonials .col-40{
     height: 100%;
     width: 30%;
   }
-
-  main .container .testimonials .col-60{
+  main .container .container-testimonials .col-60{
     height: 100%;
     width: 70%;
-    background-color: blue;
+    
   }
 
   main .benefits-list{
@@ -383,22 +388,33 @@ footer{
   }
   main .benefits-list .col-1-3{
     width: 48%;
-    background-color: blueviolet;
+
   }
 
-  main .container .about{
+  main .container-about .about{
     display: flex;
     justify-content: space-between;
   }
-  main .container .about .col-70{
+  main .container-about .col-70{
     height: 100%;
     width: 60%;
-    background-color: aquamarine;
   }
-  main .container .about .col-30{
+  main .container-about .col-70 h4{
+    font-size: 4rem;
+  }
+  main .container-about .col-30{
     height: 100%;
     width: 35%;
-    background-color: aquamarine;
+  }
+
+  footer .container-footer h3{
+    font-size: 5rem;
+  }
+  footer .footer-down{
+    height: 100%;
+  }
+  footer .footer-down .container-footer span{
+    margin-bottom: 50px;
   }
 }
 
