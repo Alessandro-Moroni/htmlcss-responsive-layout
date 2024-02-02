@@ -85,6 +85,10 @@ main{
   text-align: center;
 }
 /* prima section */
+.tools{
+  padding: 50px 0 75px 0;
+}
+
 .col-65{
   height: 605px;
   padding: 30px 25px 0 25px;
@@ -130,6 +134,7 @@ main{
 .container-50{
   background-color: rgb(149, 147, 230);
   width: 100%;
+  padding: 35px 0;
 }
 .container-50 .col-50{
   background-color: rgb(149, 147, 230);
@@ -167,16 +172,43 @@ main{
 
 /* terza section */
 
-
+.testimonials{
+  padding: 65px 0 110px 0;
+  text-align: center;
+  height: 100%;
+  font-size: 1.3rem;
+}
+.testimonials h2{
+  color: rgb(149, 147, 230);
+  font-size: 2rem;
+  padding: 40px 0;
+}
+.container-testimonials{
+  height: 500px;
+  background-color: rgb(149, 147, 230);
+  color: white;
+  padding: 30px 20px;
+  border-radius: 50px;
+}
+.container-testimonials h4{
+  margin-top: 20px;
+}
 main .container .col .col-40{
-  height: 40%;
-  border: 1px solid orange;
+  height: 50%;
 }
-main .container .col .col-60{
-  height: 60%;
-  border: 1px solid orange;
+.radius-photo{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
+main .container .col .col-60{
+  height: 50%;
+
+}
+
+/* quarta section */
 main .container .col .col-70{
   height: 70%;
   border: 1px solid orange;
